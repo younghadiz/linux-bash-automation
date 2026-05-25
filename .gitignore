@@ -1,57 +1,68 @@
-# macOS
+# macOS system files
 .DS_Store
 
-# Environment variables
+# Environment and secrets
 .env
+.env.*
+
+# SSH private keys
+*.pem
+*.key
+id_rsa
+id_ed25519
 
 # Logs
 *.log
+logs/
+app.log
 
-# Node packages
+# Node.js
 node_modules/
-
-# Build/package artifacts
+npm-debug.log*
 package/
 *.tgz
+*.tar
+*.tar.gz
 
-# Output/generated files
+# Build/output folders
+dist/
+build/
+out/
+target/
+
+# Local output evidence
 outputs/*
 !outputs/.gitkeep
 
-# SSH keys and private credentials
-*.pem
-*.key
-id_rsa*
-id_ed25519*
+# IDE/editor files
+.idea/
+.vscode/
+*.swp
+*.swo
 
-# Private screenshots/evidence
-docs/screenshots/private/
+# Temporary/cache files
+tmp/
+temp/
+.cache/
 
 # Terraform
 *.tfstate
 *.tfstate.*
 .terraform/
 
-# Kubernetes kubeconfig files
+# Kubernetes
 *kubeconfig*
 kubeconfig.yaml
 
-# Helm generated files
-*.tar.gz
+# Helm
+*.helm-release
 
-# Python cache
+# Python
 __pycache__/
 *.pyc
 
-# VS Code local settings
-.vscode/
+# Ansible
+*.retry 
 
-# JetBrains IDEs
-.idea/
-
-# Ansible retry files
-*.retry
-
-# Temporary files
-tmp/
-temp/
+# Private screenshots/evidence
+docs/screenshots/private/
