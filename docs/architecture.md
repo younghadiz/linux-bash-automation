@@ -1,3 +1,3 @@
 # Architecture Diagram
 
-![Linux Architecture Diagram](./arch-daigram/arch-daigram-linux.png)
+![Linux Architecture Diagram](./arch-daigram/arch-diagram-linux.png)
