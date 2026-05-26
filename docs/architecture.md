@@ -1,5 +1,3 @@
-<h1>Architecture Diagram</h1>
+# Architecture Diagram
 
-<p align="center">
-  <img src="arch-daigram/arch-daigram-linux.png" alt="Linux Architecture Diagram" width="900">
-</p>
+![Linux Architecture Diagram](./arch-daigram/arch-daigram-linux.png)
