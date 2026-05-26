@@ -1,3 +1,3 @@
 ## Linux System Validation
 
-![Linux Bash Automation](docs/arch-diagram/arch-diagram-linux.png)
+![Linux Bash Automation](arch-diagram/arch-diagram-linux.png)
