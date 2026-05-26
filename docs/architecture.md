@@ -1,3 +1,5 @@
-## Linux System Validation
+<h1>Architecture Diagram</h1>
 
-![Linux Bash Automation](arch-diagram/arch-diagram-linux.png)
+<p align="center">
+  <img src="arch-daigram/arch-daigram-linux.png" alt="Linux Architecture Diagram" width="900">
+</p>
